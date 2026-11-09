@@ -1,0 +1,31 @@
+# 굿홈앤리빙 노트형 화면 · 회보라 브랜드와 차분한 파스텔
+[theme]
+base = "light"
+primaryColor = "#656A83"
+backgroundColor = "#F4F2FC"
+secondaryBackgroundColor = "#F2EFF8"
+textColor = "#45475B"
+borderColor = "#E7E3EA"
+linkColor = "#4F5576"
+font = "sans-serif"
+baseRadius = "7px"
+
+# 상태 색은 브랜드 강조색과 구분하고 항상 문구와 함께 표시한다.
+greenColor = "#28634E"
+greenBackgroundColor = "#EAF1E4"
+orangeColor = "#825120"
+orangeBackgroundColor = "#FFF2DF"
+redColor = "#9B3B37"
+redBackgroundColor = "#FCEDEA"
+blueColor = "#45475B"
+blueBackgroundColor = "#EEF3FA"
+grayColor = "#626575"
+
+[theme.sidebar]
+backgroundColor = "#EFEDF6"
+
+[client]
+toolbarMode = "viewer"
+
+[browser]
+gatherUsageStats = false

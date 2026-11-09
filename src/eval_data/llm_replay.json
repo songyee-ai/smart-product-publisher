@@ -1,0 +1,1065 @@
+{
+ "description": "로컬 LLM(qwen3.5:2b, Ollama)이 샘플 20건의 원본 상품 정보만 보고 쓴 실제 출력과, 그 출력을 직접 읽고 붙인 정답 라벨. 2026-11-09 생성.",
+ "model": "qwen3.5:2b",
+ "items": [
+  {
+   "item_id": "L01",
+   "source_sample": "S01",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-001",
+    "product_name": "굿홈앤리빙 데일리 순면 차렵이불"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 데일리 순면 차렵이불",
+    "one_line_summary": "아이보리와 그레이 컬러의 프리미엄 면 소재를 활용한 고급스러운 침구입니다.",
+    "selling_points": [
+     "고급스러운 디자인과 편안한 착용감을 동시에 제공합니다.",
+     "실내 공기에 대한 우려 없이 쾌적한 환경을 조성할 수 있습니다.",
+     "친환경 면 소재로 피부에 자극을 줄이지 않습니다."
+    ],
+    "detail_description": "굿홈앤리빙 데일리 순면 차렵이불은 고급스러운 디자인과 편안한 착용감을 동시에 제공합니다. 아이보리와 그레이 컬러의 프리미엄 면 소재를 활용하여 내구성과 세척 용이성을 모두 확보했습니다. 실내 공기에 대한 우려 없이 쾌적한 환경을 조성할 수 있으며, 피부에 자극을 줄이지 않는 친환경 면 소재로 사용되어 안심하고 사용하실 수 있습니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [
+     {
+      "claim": "이불은 아이보리와 그레이 컬러의 프리미엄 면 소재로 구성되었습니다.",
+      "claim_type": "material",
+      "source_field": "product_name",
+      "source_value": "굿홈앤리빙 데일리 순면 차렵이불"
+     },
+     {
+      "claim": "이불은 슈퍼싱글과 퀸 사이즈로 제공됩니다.",
+      "claim_type": "size",
+      "source_field": "sizes",
+      "source_value": "슈퍼싱글, 퀸"
+     },
+     {
+      "claim": "가격은 79,000 원이며, 할인 후 판매 가격은 59,000 원입니다.",
+      "claim_type": "price",
+      "source_field": "selling_price",
+      "source_value": "Why: 79000"
+     },
+     {
+      "claim": "세탁 방법은 미온수 중성세제로 단독 세탁하고 그늘에서 말려야 합니다.",
+      "claim_type": "care",
+      "source_field": "care_instructions",
+      "source_value": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요."
+     }
+    ],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "원본에 없는 '친환경 면 소재'를 사실처럼 썼다."
+  },
+  {
+   "item_id": "L02",
+   "source_sample": "S02",
+   "product": {
+    "category": "침구",
+    "material": "순면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-002",
+    "product_name": "굿홈앤리빙 순면 차렵이불"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 순면 차렵이불",
+    "one_line_summary": "순면으로 만든 차렵이불, 쾌적한 잠을 위한 완벽한 선택입니다.",
+    "selling_points": [
+     "고급스러운 촉감과 뛰어난 열차림 성능을 자랑하는 순면 소재를 사용하여 따뜻한 겨울잠을 자실하게 합니다.",
+     "아이보리와 그레이 두 가지 컬러로 다양한 인테리어 스타일에 맞춰 골라보세요.",
+     "슈퍼싱글 과 퀸 사이즈에 맞춰 크기에 맞는 차렵이불을 선택하여 편안함을 경험하세요."
+    ],
+    "detail_description": "굿홈앤리빙의 프리미엄 라인업인 순면 차렵이불은 고급스러운 촉감과 탁월한 열차림 성능으로 겨울철 수면을 완성해 드립니다. 부드러운 순면 소재는 피부에 부담 없이 부드럽게 닿아, 따뜻한 잠을 자실하게 합니다. 아이보리와 그레이 컬러를 선택하여 인테리어에 어울리는 디자인을 즐기실 수 있습니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "근거 없는 '뛰어난 열차림 성능'을 단정했다."
+  },
+  {
+   "item_id": "L03",
+   "source_sample": "S03",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-003",
+    "product_name": "굿홈앤리빙 베이직 베개커버"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 베이직 베개커버 - 면 100% 고급스러운 침구 생활용품",
+    "one_line_summary": "아이보리와 그레이 컬러의 프리미엄 면 소재로, 슈퍼싱글과 퀸 사이즈를 모두 지원하며 세련된 침실 분위기를 연출합니다.",
+    "selling_points": [
+     "고급스러운 면 100% 소재로 부드럽고 촉촉한 착용감을 제공합니다.",
+     "아이보리와 그레이 컬러의 두 가지 선택지가 있어 다양한 인테리어 스타일에 맞춰 선택하실 수 있습니다.",
+     "슈퍼싱글과 퀸 사이즈를 모두 지원하여 다양한 크기의 베개 커버를 완벽하게 덮어줍니다."
+    ],
+    "detail_description": "굿홈앤리빙 베이직 베개커버는 프리미엄 면 소재의 고급스러움과 실용성을 동시에 제공합니다. 면 100%로 제작된 제품은 피부에 닿을 때 부드럽게 감싸주어, 수분을 유지하고 편안함을 선사합니다. 아이보리와 그레이 컬러를 선택하여 침실의 분위기를 차별화하실 수 있습니다. 슈퍼싱글과 퀸 사이즈를 모두 지원하므로, 다양한 크기의 베개 커버를 완벽하게 덮어줄 수 있습니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [
+     {
+      "claim": "이 제품은 면 100% 소재로 제작되었습니다.",
+      "claim_type": "material",
+      "source_field": "product_name",
+      "source_value": "면 100%"
+     },
+     {
+      "claim": "아이보리와 그레이 컬러가 포함된 색상 선택이 가능합니다.",
+      "claim_type": "color",
+      "source_field": "colors",
+      "source_value": "[\"아이보리\", \"그레이\"]"
+     },
+     {
+      "claim": "슈퍼싱글과 퀸 사이즈가 모두 지원됩니다.",
+      "claim_type": "size",
+      "source_field": "sizes",
+      "source_value": "[\"슈퍼싱글\", \"퀸\"]"
+     }
+    ],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "'수분을 유지'라는 보습 효능을 근거 없이 썼다."
+  },
+  {
+   "item_id": "L04",
+   "source_sample": "S04",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-004",
+    "product_name": "굿홈앤리빙 사계절 매트리스 커버"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 사계절 매트리스 커버",
+    "one_line_summary": "면 100% 소재로 제작된 고품질 침구입니다.",
+    "selling_points": [
+     "고성능 면 100% 소재로 피부에 자극 없이 편안하게 사용 가능합니다.",
+     "사계절 착용이 가능한 디자인으로, 따뜻한 겨울철부터 시원한 여름철까지 쾌적합니다.",
+     "단일 구성으로 이불 1 장만 구매하여 간편하게 침구 생활을 시작할 수 있습니다."
+    ],
+    "detail_description": "굿홈앤리빙 사계절 매트리스 커버는 고품질 면 100% 소재를 사용하여 피부에 자극이 없는 편안함을 제공합니다. 다양한 색상과 사이즈를 선택하여 맞춤으로 맞춰, 따뜻한 겨울철부터 시원한 여름철까지 쾌적하게 사용하실 수 있습니다.",
+    "care_guide": "30 도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [
+     {
+      "claim": "굿홈앤리빙 사계절 매트리스 커버는 고품질 면 100% 소재로 제작되었습니다.",
+      "claim_type": "material",
+      "source_field": "product_name",
+      "source_value": "면 100%"
+     },
+     {
+      "claim": "굿홈앤리빙 사계절 매트리스 커버는 다양한 색상과 사이즈를 제공합니다.",
+      "claim_type": "color",
+      "source_field": "colors",
+      "source_value": "[\"아이보리\", \"그레이\"]"
+     },
+     {
+      "claim": "굿홈앤리빙 사계절 매트리스 커버는 단일 구성으로 이불 1 장만 구매하여 사용 가능합니다.",
+      "claim_type": "composition",
+      "source_field": "source_notes",
+      "source_value": "구성: 이불 1장."
+     }
+    ],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "'피부에 자극이 없는'은 근거 없는 저자극 주장이다."
+  },
+  {
+   "item_id": "L05",
+   "source_sample": "S05",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-005",
+    "product_name": "굿홈앤리빙 워싱 면 이불커버"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 워싱 면 이불커버 - 편안함과 세심함을 동시에 경험하세요",
+    "one_line_summary": "면 100% 고급 소재로 만든 이불커버는 따뜻한 느낌을 살리면서도 깔끔한 외관을 유지하며, 세탁 후에도 부드럽고 단단하게 유지됩니다.",
+    "selling_points": [
+     "면 100% 고순도 소재로 피부에 친숙하고 부드러운 촉감을 제공합니다.",
+     "아이보리와 그레이 두 가지 색상으로 다양한 인테리어 스타일에 맞춰 선택할 수 있습니다.",
+     "슈퍼싱글과 퀸 사이즈를 모두 지원하여 다양한 공간의 사용이 가능합니다.",
+     "세탁 후에도 부드럽고 단단하게 유지되는 뛰어난 내구성."
+    ],
+    "detail_description": "굿홈앤리빙 워싱 면 이불커버는 프리미엄 면 소재를 사용하여 피부에 깊은 연마와 부드러운 느낌을 선사합니다. 면의 자연스러운 탄력성을 살려, 세탁 후에도 부드럽고 단단하게 유지되는 뛰어난 내구성을 자랑합니다. 아이보리와 그레이 두 가지 색상으로 다양한 인테리어 스타일에 맞춰 선택할 수 있으며, 슈퍼싱글과 퀸 사이즈를 모두 지원하여 다양한 공간의 사용이 가능합니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "'세탁 후에도 단단하게 유지되는 뛰어난 내구성'을 근거 없이 단정했다."
+  },
+  {
+   "item_id": "L06",
+   "source_sample": "S06",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 89000,
+    "sale_price": 69000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-006",
+    "product_name": "굿홈앤리빙 호텔식 면 침대 패드"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 호텔식 면 침대 패드 - 편안함과 세정력을 한 몸에 담은 프리미엄 침구",
+    "one_line_summary": "고성분 면 소재로 촉촉하고 시원한 느낌을, 부드러운 호텔식 디자인으로 수면의 고통을 해소해 드립니다.",
+    "selling_points": [
+     "호텔식 고급스러운 디자인으로 수면의 편안함을 극대화합니다.",
+     "100% 면 소재로 피부에 자극 없이 부드럽고 촉촉한 느낌을 제공합니다.",
+     "슈퍼싱글과 퀸 사이즈를 선택하여 다양한 크기의 침실에도 완벽하게 맞춥니다.",
+     "세탁 후에도 원상태의 부드러움과 탄력을 유지하며, 수명을 연장합니다."
+    ],
+    "detail_description": "굿홈앤리빙 호텔식 면 침대 패드는 단순한 침구 이상의 가치를 지닙니다. 프리미엄 면 소재를 사용하여 피부와 닿는 부분에서 부드러운 촉촉함을 선사합니다. 호텔처럼 세련된 디자인은 숙녀들의 수면 질을 높이는 데 기여하며, 일상적인 사용에도 완벽한 호환성을 보입니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [
+     {
+      "claim": "이 제품은 면 소재로 구성되어 있습니다.",
+      "claim_type": "composition",
+      "source_field": "product_name",
+      "source_value": "굿홈앤리빙 호텔식 면 침대 패드"
+     },
+     {
+      "claim": "이 제품은 100% 면 소재입니다.",
+      "claim_type": "material",
+      "source_field": "product_name",
+      "source_value": "면 100%"
+     },
+     {
+      "claim": "이 제품은 슈퍼싱글 사이즈와 퀸 사이즈로 제공됩니다.",
+      "claim_type": "size",
+      "source_field": "sizes",
+      "source_value": "슈퍼싱글, 퀸"
+     }
+    ],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "'수면의 고통을 해소', '수명을 연장', '세정력' 같은 근거 없는 효과를 썼다."
+  },
+  {
+   "item_id": "L07",
+   "source_sample": "S07",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-007",
+    "product_name": "굿홈앤리빙 면 누빔 패드"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 면 누빔 패드 - 침구 생활용품",
+    "one_line_summary": "면 100% 고품질 소재로, 아이보리 및 그레이 컬러의 슈퍼싱글과 퀸 사이즈를 제공합니다.",
+    "selling_points": [
+     "고급 면 100% 소재로 피부에 부드럽고 촉촉한 느낌을 선사합니다.",
+     "아이보리 또는 그레이 컬러 중 하나를 선택하여 다양한 인테리어 스타일에 맞춰보세요.",
+     "슈퍼싱글과 퀸 사이즈 모두에서 편안한 크기로 사용 가능합니다."
+    ],
+    "detail_description": "굿홈앤리빙 면 누빔 패드는 고품질의 면 소재로 제작되어 피부와 닿는 부분에서 부드러운 촉感和 시원한 느낌을 제공합니다. 면 100% 구성으로 세탁과 보관에 특별한 주의가 필요하지 않으며, 일상생활의 모든 상황에서 편안함을 느낄 수 있습니다.",
+    "care_guide": "",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [
+     {
+      "claim": "이 제품은 고품질의 면 소재로 제작되었습니다.",
+      "claim_type": "material",
+      "source_field": "product_name",
+      "source_value": "굿홈앤리빙 면 누빔 패드"
+     },
+     {
+      "claim": "이 제품은 면 100% 구성입니다.",
+      "claim_type": "composition",
+      "source_field": "material",
+      "source_value": "면 100%"
+     },
+     {
+      "claim": "이 제품은 아이보리 컬러와 그레이 컬러로 제공됩니다.",
+      "claim_type": "color",
+      "source_field": "colors",
+      "source_value": "아이보리, 그레이"
+     },
+     {
+      "claim": "슈퍼싱글과 퀸 사이즈가 모두 제공됩니다.",
+      "claim_type": "size",
+      "source_field": "sizes",
+      "source_value": "슈퍼싱글, 퀸"
+     }
+    ],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "관리 방법이 원본에 없는데 '세탁·보관에 특별한 주의가 필요 없다'고 지어냈다."
+  },
+  {
+   "item_id": "L08",
+   "source_sample": "S08",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [
+     "항균 가공 원단 사용(시험성적서 보유)"
+    ],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-008",
+    "product_name": "굿홈앤리빙 항균 가공 면 베개커버"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 항균 가공 면 베개커버 - 침구 생활용품",
+    "one_line_summary": "항균 원단으로 안심하고, 아이보리 및 그레이 컬러로 편안하게.",
+    "selling_points": [
+     "항균 가공 원단 사용 (시험성적서 보유)",
+     "면 100% 고소 소재로 피부에 부담 없이",
+     "아이보리, 그레이 두 가지 컬러 선택 가능"
+    ],
+    "detail_description": "굿홈앤리빙에서 출시한 항균 가공 면 베개커버는 일상생활에서 가장 중요한 침구 아이템 중 하나입니다. 방독 처리된 원단을 사용하여 세균 번식을 억제하고, 피부와 호흡기 건강에 좋은 면 100% 소재를 적용하여 쾌적한 수면을 제공합니다. 아이보리 와 그레이 컬러로 다양한 인테리어 스타일에 맞춰 선택하실 수 있습니다.",
+    "care_guide": "30 도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [
+     {
+      "claim": "항균 가공 원단 사용",
+      "claim_type": "function",
+      "source_field": "approved_claims",
+      "source_value": "시험성적서 보유"
+     },
+     {
+      "claim": "면 100% 소재",
+      "claim_type": "material",
+      "source_field": "product_name",
+      "source_value": "굿홈앤리빙 항균 가공 면 베개커버"
+     },
+     {
+      "claim": "아이보리 컬러 선택 가능",
+      "claim_type": "color",
+      "source_field": "colors",
+      "source_value": "아이보리, 그레이"
+     },
+     {
+      "claim": "퀸 사이즈 제공",
+      "claim_type": "size",
+      "source_field": "sizes",
+      "source_value": "슈퍼싱글, 퀸"
+     }
+    ],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "승인된 항균 외에 '호흡기 건강', '방독 처리'를 덧붙였다."
+  },
+  {
+   "item_id": "L09",
+   "source_sample": "S09",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-009",
+    "product_name": "굿홈앤리빙 면 매트리스 커버"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 면 매트리스 커버 - 고급스러운 침구 생활용품",
+    "one_line_summary": "면 100% 소재로 제작된 고품질 매트리스 커버, 아이보리 및 그레이 컬러에서 선택하세요.",
+    "selling_points": [
+     "고급스러운 면 소재를 활용한 부드러운觸感",
+     "아이보리 또는 그레이 컬러의 다양한 스타일링 옵션 제공"
+    ],
+    "detail_description": "굿홈앤리빙 면 매트리스 커버는 고품질의 면 소재로 제작되어, 사용 시 부드럽고 편안하게 느껴집니다. 이불 1 장을 담고 있는 디자인으로, 침실의 분위기를 더욱 고급스럽게 연출할 수 있습니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [
+     {
+      "claim": "면 100% 소재로 제작되어 부드러운 촉감을 제공합니다.",
+      "claim_type": "material",
+      "source_field": "product_name",
+      "source_value": "굿홈앤리빙 면 매트리스 커버"
+     },
+     {
+      "claim": "아이보리 컬러와 그레이 컬러의 두 가지 색상 옵션이 제공됩니다.",
+      "claim_type": "color",
+      "source_field": "colors",
+      "source_value": "[\"아이보리\", \"그레이\"]"
+     },
+     {
+      "claim": "슈퍼싱글과 퀸 사이즈로 다양한 크기에 맞춰 선택할 수 있습니다.",
+      "claim_type": "size",
+      "source_field": "sizes",
+      "source_value": "[\"슈퍼싱글\", \"퀸\"]"
+     },
+     {
+      "claim": "이불 1 장을 담고 있는 디자인으로 침실 분위기를 고급스럽게 연출합니다.",
+      "claim_type": "composition",
+      "source_field": "source_notes",
+      "source_value": "구성: 이불 1장."
+     }
+    ],
+    "price_display": null
+   },
+   "expected_review": false,
+   "expected_reason": "문장이 어색하지만 원본에 없는 기능·사실 주장은 없다."
+  },
+  {
+   "item_id": "L10",
+   "source_sample": "S10",
+   "product": {
+    "category": "생활용품",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-010",
+    "product_name": "굿홈앤리빙 포근 면 블랭킷"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 포근 면 블랭킷",
+    "one_line_summary": "면 100% 소재로 따뜻함을 느끼실 수 있는 고품질 생활용품입니다.",
+    "selling_points": [
+     "고급스러운 면 100% 소재로 피부에 부드럽게 맞닿아, 따뜻한 느낌을 선사합니다.",
+     "아이보리 또는 그레이 컬러에서 선택해, 집안 분위기를 편안하게 연출하실 수 있습니다.",
+     "슈퍼싱글 과 퀸 사이즈를 제공하여 다양한 신체 크기에 맞춰 완벽한 포근함을 경험하세요."
+    ],
+    "detail_description": "고급스러운 면 소재의 면 블랭킷을 통해 따뜻한 느낌을 선사합니다. 면 100%로 구성되며, 피부와 직결되는 부드러운 촉감을 제공합니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [],
+    "price_display": "59,000원"
+   },
+   "expected_review": false,
+   "expected_reason": "분위기 표현과 원본 정보만 썼고 가격도 원본과 같다."
+  },
+  {
+   "item_id": "L11",
+   "source_sample": "S11",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-011",
+    "product_name": "굿홈앤리빙 면 거즈 이불"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 면 거즈 이불 - 고급스러운 편안함을 위한 침구 생활용품",
+    "one_line_summary": "면 100%로 제작된 고퀄리티 면 거즈 이불, 아이보리와 그레이 컬러에서 선택해 보세요.",
+    "selling_points": [
+     "면 100% 고순도 소재로 피부에 자극 없이 부드럽게 감싸줍니다.",
+     "아이보리 및 그레이 두 가지 컬러를 통해 취향과 분위기를 자유롭게 연출할 수 있습니다.",
+     "슈퍼싱글 과 퀸 사이즈를 선택하여 다양한 크기로 사용 가능합니다.",
+     "세탁 후 말려주세요. 세탁 후 건조 시 이불이 더 부드럽게 유지됩니다."
+    ],
+    "detail_description": "굿홈앤리빙 면 거즈 이불은 고퀄리티 면 소재 100%로 제작되어 피부에 자극 없이 부드럽게 감싸줍니다. 면의 자연스러운 촉감은 장시간 동안 편안함을 선사하며, 아이보리 컬러와 그레이 컬러를 통해 취향과 분위기를 자유롭게 연출할 수 있습니다. 슈퍼싱글 과 퀸 사이즈를 선택하여 다양한 크기로 사용 가능합니다.",
+    "care_guide": "세탁 후 말려주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [
+     {
+      "claim": "이불은 면 100% 소재로 제작되었습니다.",
+      "claim_type": "composition",
+      "source_field": "material",
+      "source_value": "면 100%"
+     },
+     {
+      "claim": "아이보리 컬러와 그레이 컬러가 제공됩니다.",
+      "claim_type": "color",
+      "source_field": "colors",
+      "source_value": "아이보리, 그레이"
+     },
+     {
+      "claim": "슈퍼싱글 과 퀸 사이즈가 제공되며, 다양한 크기로 사용 가능합니다.",
+      "claim_type": "size",
+      "source_field": "sizes",
+      "source_value": "슈퍼싱글, 퀸"
+     }
+    ],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "'피부에 자극 없이'는 근거 없는 저자극 주장이다."
+  },
+  {
+   "item_id": "L12",
+   "source_sample": "S12",
+   "product": {
+    "category": "생활용품",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-012",
+    "product_name": "굿홈앤리빙 면 방석 커버"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 면 방석 커버 - 따뜻한 감촉으로 수면을 편안하게",
+    "one_line_summary": "면 100% 소재로 입체적인 폼이 유지되며, 아이보리 및 그레이 컬러에서 선택해 보세요.",
+    "selling_points": [
+     "면 100% 고순도 면으로 피부에 친숙한 촉감을 제공합니다.",
+     "입체적인 폼 구조를 유지하여 수면 중에도 방석 커버가 잘 안 밀어집니다.",
+     "아이보리, 그레이 등 세련된 컬러에서 선택해 보세요."
+    ],
+    "detail_description": "굿홈앤리빙 면 방석 커버는 입체적인 폼 구조를 유지하여 수면 중에도 방석 커버가 잘 안 밀어집니다. 부드러운 면 소재로 피부에 친숙한 촉감을 제공하며, 아이보리, 그레이 등 세련된 컬러에서 선택해 보세요.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "원본에 없는 '입체 폼 구조', '잘 안 밀림' 기능을 지어냈다."
+  },
+  {
+   "item_id": "L13",
+   "source_sample": "S13",
+   "product": {
+    "category": "생활용품",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-013",
+    "product_name": "굿홈앤리빙 면 소파 패드"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 면 소파 패드 - 고품질 면 소재로 편안함을 선사합니다",
+    "one_line_summary": "아이보리 및 그레이 컬러의 프리미엄 면 소파 패드를 만나, 따뜻한 감촉과 세련된 디자인으로 당신의 공간에 여유를 더하세요.",
+    "selling_points": [
+     "고급스러운 면 소재로 부드러운 촉감을 제공합니다.",
+     "아이보리와 그레이 두 가지 컬러 선택이 가능합니다.",
+     "슈퍼싱글 및 퀸 사이즈가 다양한 공간에 적합합니다.",
+     "세탁 후에도 원본의 매끄러운 질감을 유지합니다."
+    ],
+    "detail_description": "굿홈앤리빙 면 소파 패드는 고품질의 면 소재를 사용하여 편안함과 세련미를 동시에 제공합니다. 아이보리와 그레이 컬러가 있어 다양한 인테리어 스타일에 맞춰 선택하실 수 있습니다. 슈퍼싱글과 퀸 사이즈로 가정이나 사무실 공간에 완벽한 호환성을 가집니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [
+     {
+      "claim": "이 제품은 면 소재로 구성됩니다.",
+      "claim_type": "material",
+      "source_field": "product_name",
+      "source_value": "굿홈앤리빙 면 소파 패드"
+     },
+     {
+      "claim": "아이보리와 그레이 두 가지 색상으로 제공됩니다.",
+      "claim_type": "color",
+      "source_field": "colors",
+      "source_value": "아이보리, 그레이"
+     },
+     {
+      "claim": "슈퍼싱글과 퀸 사이즈가 제공되며, 다양한 공간에 적합합니다.",
+      "claim_type": "size",
+      "source_field": "sizes",
+      "source_value": "슈퍼싱글, 퀸"
+     }
+    ],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "'세탁 후에도 매끄러운 질감 유지'를 근거 없이 단정했다."
+  },
+  {
+   "item_id": "L14",
+   "source_sample": "S14",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-014",
+    "product_name": "굿홈앤리빙 데일리 베개커버"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 데일리 베개커버 - 편안함과 세정력을 한 몸에 담은 면 소재 베개 커버",
+    "one_line_summary": "면 100%로 만든 고품질 침구 커버, 아이보리 및 그레이 컬러의 클래식한 디자인으로 하루를 시작하는 순간부터 따스함을 느끼세요.",
+    "selling_points": [
+     "고급 면 소재로 부드러운 촉감을 제공하며, 피부에 닿는 순간까지 편안함을 선사합니다.",
+     "아이보리와 그레이 두 가지 컬러 중 선택하여 취향과 공간의 분위기를 연출하세요.",
+     "슈퍼싱글과 퀸 사이즈를 모두 지원하여 다양한 크기의 베개와 완벽하게 맞물립니다."
+    ],
+    "detail_description": "굿홈앤리빙 데일리 베개커버는 매일 사용하시는 침구에서 가장 먼저 닿는 물리적 접촉 면을 고려하여 제작되었습니다. 고급 면 소재의 직선적인 구조로 인해 피부가 부드럽게 감싸져 있어, 수면 중에도 깊은 휴식을 취하실 수 있도록 돕습니다. 아이보리 컬러는 따뜻하고 친근한 느낌을 주며, 그레이 컬러는 세련되고 우아한 분위기를 연출할 수 있습니다. 두 가지 색상이 모두 일상생활에서 실용성을 고려하여 설계되었습니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [
+     {
+      "claim": "굿홈앤리빙 데일리 베개커버는 면 100%로 구성됩니다.",
+      "claim_type": "composition",
+      "source_field": "product_name",
+      "source_value": "면 100%"
+     },
+     {
+      "claim": "상품은 아이보리와 그레이 두 가지 색상으로 제공됩니다.",
+      "claim_type": "color",
+      "source_field": "colors",
+      "source_value": "아이보리, 그레이"
+     },
+     {
+      "claim": "슈퍼싱글과 퀸 사이즈가 모두 지원됩니다.",
+      "claim_type": "size",
+      "source_field": "sizes",
+      "source_value": "슈퍼싱글, 퀸"
+     }
+    ],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "제목의 '세정력'은 베개커버에 근거 없는 성능 표현이다."
+  },
+  {
+   "item_id": "L15",
+   "source_sample": "S15",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "베이지"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-015",
+    "product_name": "굿홈앤리빙 면 홑이불"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 면 홑이불 - 편안함과 세척을 동시에 챙기세요",
+    "one_line_summary": "면 100%로 부드럽고, 전용세제로 세탁하여 오랫동안 깔끔하게 유지하세요.",
+    "selling_points": [
+     "면 100% 소재로 피부에 닿는 순간부터 부드러운 촉감을 경험합니다.",
+     "아이보리 및 베이지 컬러를 선택하여 집안 분위기를 편안하게 만듭니다.",
+     "슈퍼싱글과 퀸 사이즈를 모두 지원하여 다양한 공간 구성에 맞춰보세요.",
+     "세탁 시 전용 세제로만 세탁하여 염색이 변하지 않고 오랫동안 깨끗합니다."
+    ],
+    "detail_description": "굿홈앤리빙 면 홑이불은 고품질의 면 소재를 사용하여 피부와 닿는 순간부터 부드럽고 편안함을 선사합니다. 아이보리 또는 베이지 컬러를 선택해 집안의 분위기를 자연스럽게 연출할 수 있습니다. 사이즈는 슈퍼싱글과 퀸으로, 다양한 공간 구성에 맞춰 유연하게 활용하세요. 특히 세탁 시 전용 세제로만 세탁하여 염색이 변하지 않고 오랫동안 깔끔하게 유지할 수 있습니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "원본(중성세제)과 다른 '전용 세제로만' 세탁 안내와 '염색이 변하지 않는다'는 단정을 썼다."
+  },
+  {
+   "item_id": "L16",
+   "source_sample": "S16",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-016",
+    "product_name": "굿홈앤리빙 면 차렵 이불세트"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 면 차렵 이불세트",
+    "one_line_summary": "면 100% 소재로 부드럽고 오래된 느낌을 살린 고급스러운 침구입니다.",
+    "selling_points": [
+     "면 100% 고순도 면으로 피부에 부드러운 촉감을 제공합니다.",
+     "아이보리 및 그레이 컬러가 다양한 인테리어 스타일과 어울립니다.",
+     "슈퍼싱글 과 퀸 사이즈로 다양한 크기의 침대나 가족 구성원에게 적합합니다."
+    ],
+    "detail_description": "굿홈앤리빙 면 차렵 이불세트는 고급스러운 면 소재의 편안함과 실용성을 동시에 갖춘 침구입니다. 면 100% 재료를 사용하여 피부에 부드럽게 닿아, 긴 시간 동안에도 편안함을 유지할 수 있습니다. 아이보리와 그레이 두 가지 컬러를 선택하여 집안 분위기를 연출할 수 있으며, 슈퍼싱글과 퀸 사이즈로 다양한 공간의 필요에 따라 선택해 드립니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [],
+    "price_display": null
+   },
+   "expected_review": false,
+   "expected_reason": "원본 정보와 주관적 표현만 썼다."
+  },
+  {
+   "item_id": "L17",
+   "source_sample": "S17",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-017",
+    "product_name": "굿홈앤리빙 면 여름 이불"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 면 여름 이불 - 시원한 여름을 위한 완벽한 침구",
+    "one_line_summary": "면 100% 소재의 고급스러운 여름 이불로, 쾌적하고 편안한 수면을 경험하세요.",
+    "selling_points": [
+     "가성비 높은 면 100% 고품질 소재를 사용하여 실용성을 극대화했습니다.",
+     "아이보리 및 그레이 컬러 두 가지 선택으로 다양한 인테리어 스타일에 맞춰보세요.",
+     "슈퍼싱글과 퀸 사이즈의 표준 이불 크기로, 가족 단위나 개인 사용 모두에 적합합니다."
+    ],
+    "detail_description": "여름철 쾌적한 수면을 위한 고품질 면 소재 이불입니다. 면 100%로 구성된 고급스러운 소재는 피부 자극을 최소화하고, 체온 조절 기능을 통해 여름의 열기를 효과적으로 방출합니다. 아이보리와 그레이 컬러를 선택하여 집안의 인테리어 스타일에 완벽하게 어울립니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [
+     {
+      "claim": "이불은 면 100% 소재로 구성되었습니다.",
+      "claim_type": "composition",
+      "source_field": "material",
+      "source_value": "면 100%"
+     },
+     {
+      "claim": "상품은 아이보리 컬러와 그레이 컬러 두 가지 색상으로 제공됩니다.",
+      "claim_type": "color",
+      "source_field": "colors",
+      "source_value": "[\"아이보리\", \"그레이\"]"
+     },
+     {
+      "claim": "상품은 슈퍼싱글과 퀸 사이즈의 표준 이불 크기로 제공되며, 다양한 사용처에 적합합니다.",
+      "claim_type": "size",
+      "source_field": "sizes",
+      "source_value": "[\"슈퍼싱글\", \"퀸\"]"
+     }
+    ],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "'피부 자극 최소화', '체온 조절 기능'을 근거 없이 썼다."
+  },
+  {
+   "item_id": "L18",
+   "source_sample": "S18",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장. 베개커버는 별도 판매.",
+    "product_id": "GH-018",
+    "product_name": "굿홈앤리빙 면 이불"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 면 이불 - 편안함과 세척의 완벽한 조화를 경험하세요",
+    "one_line_summary": "면 100% 소재로 입체적인 폼과 부드러운 촉감을 동시에 선사합니다. 아이보리 또는 그레이 컬러에서 선택해 사용하세요.",
+    "selling_points": [
+     "입체적인 폼으로 체온 조절이 원활해져 쾌적한 수면을 보장합니다.",
+     "면 100% 고순도 소재로 피부 자극을 최소화하고, 부드러운 촉감을 제공합니다.",
+     "아이보리 또는 그레이 컬러를 선택하여 다양한 인테리어 스타일에 완벽하게 어울립니다."
+    ],
+    "detail_description": "굿홈앤리빙 면 이불은 입체적인 폼 구조를 통해 체온 조절이 원활해져 쾌적한 수면을 보장합니다. 또한, 면 100% 고순도 소재로 피부 자극을 최소화하고, 부드러운 촉감을 제공합니다. 아이보리 또는 그레이 컬러를 선택하여 다양한 인테리어 스타일에 완벽하게 어울립니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [
+     {
+      "claim": "입체적인 폼으로 체온 조절이 원활해져 쾌적한 수면을 보장합니다.",
+      "claim_type": "function",
+      "source_field": "product_name",
+      "source_value": "굿홈앤리빙 면 이불"
+     },
+     {
+      "claim": "면 100% 고순도 소재로 피부 자극을 최소화하고, 부드러운 촉감을 제공합니다.",
+      "claim_type": "function",
+      "source_field": "product_name",
+      "source_value": "굿홈앤리빙 면 이불"
+     },
+     {
+      "claim": "아이보리 또는 그레이 컬러를 선택하여 다양한 인테리어 스타일에 완벽하게 어울립니다.",
+      "claim_type": "function",
+      "source_field": "product_name",
+      "source_value": "굿홈앤리빙 면 이불"
+     }
+    ],
+    "price_display": null
+   },
+   "expected_review": true,
+   "expected_reason": "'체온 조절', '피부 자극 최소화'를 근거 없이 썼다."
+  },
+  {
+   "item_id": "L19",
+   "source_sample": "S19",
+   "product": {
+    "category": "침구",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "베이킹소다를 푼 미온수에 손세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-019",
+    "product_name": "굿홈앤리빙 면 침대 스커트"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 면 침대 스커트 - 편안함과 세척의 완벽한 조화",
+    "one_line_summary": "면 100% 고급 소재로 제작된 침구, 부드러운觸感和 쉬운 관리가 일상에서 더 이상 고민이 되지 않습니다.",
+    "selling_points": [
+     "편안한 면 100% 고급 소재로 피부에 닿는 순간부터 부드럽고 따뜻하게 감싸드립니다.",
+     "아이보리 및 그레이 컬러를 선택하여 집의 분위기를 자연스럽게 연출해 보세요.",
+     "슈퍼싱글과 퀸 사이즈를 모두 지원하여 다양한 공간에서 완벽한 사용이 가능합니다.",
+     "베이킹소다를 푼 미온수에 손세탁하고 그늘에서 말려 드시면, 오래된 침구를 새처럼 유지할 수 있습니다."
+    ],
+    "detail_description": "굿홈앤리빙 면 침대 스커트는 고급스러운 면 100% 소재를 사용하여 가장 부드러운 촉감을 제공합니다. 아이보리 및 그레이 컬러가 선택되면 집의 분위기를 자연스럽게 연출해 보세요. 슈퍼싱글과 퀸 사이즈를 모두 지원하여 다양한 공간에서 완벽한 사용이 가능합니다.",
+    "care_guide": "베이킹소다를 푼 미온수에 손세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [],
+    "price_display": null
+   },
+   "expected_review": false,
+   "expected_reason": "관리 안내를 원본대로 옮겼고 기능 주장이 없다."
+  },
+  {
+   "item_id": "L20",
+   "source_sample": "S20",
+   "product": {
+    "category": "생활용품",
+    "material": "면 100%",
+    "colors": [
+     "아이보리",
+     "그레이"
+    ],
+    "sizes": [
+     "슈퍼싱글",
+     "퀸"
+    ],
+    "selling_price": 79000,
+    "sale_price": 59000,
+    "care_instructions": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "approved_claims": [],
+    "source_notes": "구성: 이불 1장.",
+    "product_id": "GH-020",
+    "product_name": "굿홈앤리빙 면 쿠션 커버"
+   },
+   "content": {
+    "display_title": "굿홈앤리빙 면 쿠션 커버 - 고퀄리티 생활의 시작",
+    "one_line_summary": "면 100% 소재로 만든 고급스러운 면 쿠션 커버를 만나, 편안한 수면을 경험하세요.",
+    "selling_points": [
+     "고급스러운 면 소재로 부드러운 촉감을 선사합니다.",
+     "아이보리, 그레이 등 다양한 색상으로 선택해 취향과 분위기를 연출하세요.",
+     "슈퍼싱글 및 퀸 사이즈를 제공하여 다양한 크기의 이불을 완벽하게 덮어줍니다."
+    ],
+    "detail_description": "굿홈앤리빙 면 쿠션 커버는 고품질의 면 소재를 사용하여 피부에 부드럽게 닿아 편안함을 느끼실 수 있도록 설계되었습니다. 아이보리 또는 그레이로 선택하신 색상으로 집안의 분위기를 살려, 따뜻한 느낌을 주며 수면의 질을 높여드립니다. 슈퍼싱글과 퀸 사이즈 두 가지 옵션을 통해 다양한 크기의 이불을 덮어주어, 완벽한 숙면을 보장해 드립니다.",
+    "care_guide": "30도 이하 미온수에 중성세제로 단독 세탁하고 그늘에서 말려 주세요.",
+    "seo_keywords": [],
+    "hashtags": [],
+    "fact_claims": [],
+    "price_display": "59,000원"
+   },
+   "expected_review": true,
+   "expected_reason": "'수면의 질을 높여', '완벽한 숙면을 보장'은 근거 없는 효능이다."
+  }
+ ]
+}
